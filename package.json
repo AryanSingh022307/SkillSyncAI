@@ -10,9 +10,11 @@
     "test:engine": "tsx scripts/test-engine.ts"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "geist": "^1.7.2",
     "lucide-react": "^1.48.0",
     "next": "16.3.6",
+    "next-auth": "^5.0.0-beta.32",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "server-only": "^0.0.1",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
